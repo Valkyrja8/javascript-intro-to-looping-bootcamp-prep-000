@@ -13,12 +13,11 @@ return array
 
 //Build a while loop
 
-let countdown = 0;
-
 function whileLoop(n){
-  while (n > countdown) {
-    console.log("done")
-  }
+  let countdown = n--;
+  while (countdown > 0) {
+   console.log(countdown)} 
+   return "done"
 }
 
 // Build a Do-While loop
